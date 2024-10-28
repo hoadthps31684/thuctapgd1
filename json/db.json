@@ -1,0 +1,251 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "title": "Trang Chủ",
+            "link": "trang_chu.html"
+        },
+    
+        {
+            "id": 2,
+            "title": "Sản Phẩm",
+            "link": "san_pham.html",
+            "dropdown": [
+                {
+                    "id": 1,
+                    "title": "Sách Thiêng Liêng",
+                    "link": "san_pham.html?category=sachThiengLieng"
+                },
+    
+                {
+                    "id": 2,
+                    "title": "Hạnh Các Thánh",
+                    "link": "san_pham.html?category=hanhCacThanh"
+                },
+    
+                {
+                    "id": 3,
+                    "title": "Tâm lý_Chữa lành",
+                    "link": "san_pham.html?category=tamLyChuaLanh"
+                },
+    
+                {
+                    "id": 4,
+                    "title": "Truyện Tranh Kinh Thánh",
+                    "link": "san_pham.html?category=truyenTranhKinhThanh"
+                }
+            ]
+        },
+        
+        {
+            "id": 3,
+            "title": "Bài Viết",
+            "link": "bai_viet.html"
+        },
+    
+        {
+            "id": 4,
+            "title": "Liên Hệ",
+            "link": "lien_he.html"
+        }
+    ],
+    "product":[
+        {
+          "id": 1,
+          "nameProduct": "Chỉ mình Thiên Chúa",
+          "category": "hanhcacthanh",
+          "price": 80.000,
+          "image": "Hạnh Các Thánh/Chỉ mình Thiên Chúa.jpg",
+          "date": "2024-10-16"
+        },
+
+        {
+          "id": 2,
+          "nameProduct": "Chữa lành những tương quan đã bị tổn thương",
+          "category": "sachthienglieng",
+          "price": 175.000,
+          "image": "Sách Thiêng Liêng/Chữa lành những tương quan đã bị tổn thương.jpg",
+          "date": "2024-10-16"
+        },
+
+        {
+          "id": 3,
+          "nameProduct": "Đau khổ và sự chữa lành",
+          "category": "sachchualanh",
+          "price": 111.000,
+          "image": "Sách tâm lý chữa lành/Đau khổ và sự chữa lành.jpg",
+          "date": "2024-10-16"
+        },
+        
+        {
+          "id": 4,
+          "nameProduct": "Kể chuyện Kinh Thánh",
+          "category": "truyenkinhthanh",
+          "price": 50.000,
+          "image": "Truyện kinh thánh/Kể chuyện Kinh Thánh.jpg",
+          "date": "2024-10-16"
+        },
+
+        {
+            "id": 5,
+            "nameProduct": "Nước mắt và tha thứ",
+            "category": "sachchualanh",
+            "price": 200.000,
+            "image": "Sách tâm lý chữa lành/Nước mắt và tha thứ.jpg",
+            "date": "2024-10-16"
+          },
+
+          {
+            "id": 6,
+            "nameProduct": "Đức ghen của một vị Thánh",
+            "category": "hanhcacthanh",
+            "price": 120.000,
+            "image": "Hạnh Các Thánh/Đức ghen của một vị Thánh.jpg",
+            "date": "2024-10-16"
+          },
+          {
+            "id": 7,
+            "nameProduct": "Lạy Chúa con đây",
+            "category": "sachthienglieng",
+            "price": 96.000,
+            "image": "Sách Thiêng Liêng/Lạy Chúa con đây.jpg",
+            "date": "2024-10-16"
+          },
+          {
+            "id": 8,
+            "nameProduct": "Lạy Chúa Ngài đã quyết rũ con",
+            "category": "sachthienglieng",
+            "price": 135.000,
+            "image": "Sách Thiêng Liêng/Lạy Chúa Ngài đã quyết rũ con.jpg",
+            "date": "2024-10-16"
+          },
+          {
+            "id": 9,
+            "nameProduct": "Thánh Têrêsa Avila vị Thánh hay xuất thần",
+            "category": "hanhcacthanh",
+            "price": 85.000,
+            "image": "Hạnh Các Thánh/Thánh Têrêsa Avila vị Thánh hay xuất thần.jpg",
+            "date": "2024-10-16"
+          },
+          {
+            "id": 10,
+            "nameProduct": "Những đứa con của Mẹ",
+            "category": "sachthienglieng",
+            "price": 65.000,
+            "image": "Sách Thiêng Liêng/Những đứa con của Mẹ.png",
+            "date": "2024-10-16"
+          },
+          {
+            "id": 11,
+            "nameProduct": "Hỡi con người bạn là ai",
+            "category": "sachthienglieng",
+            "price": 120.000,
+            "image": "Sách Thiêng Liêng/Hỡi con người bạn là ai.jpg",
+            "date": "2024-10-16"
+          },
+          {
+            "id": 12,
+            "nameProduct": "Suy niệm lời kinh thật thà",
+            "category": "truyenkinhthanh",
+            "price": 135.000,
+            "image": "Truyện Kinh Thánh/Suy niệm lời kinh thật thà.jpg",
+            "date": "2024-10-16"
+          }
+    ],
+    "post": [
+        {
+            "title": "KẺ ĐI TÌM",
+            "subject": "Chúa là kẻ đi tìm. Chúa tìm tôi giữa rừng hoang, lũ sói vẫn len lỏi khắp nơi. Tôi như chiên lạc đàn để rồi chủ mình phải mất công tìm kiếm suốt ngày đêm mà chẳng hề nao núng. Giữa những lo toan của cuộc sống, một chút niềm vui nho nhỏ hiện lên phải chăng là Chúa, chính Chúa đang là dòng nước trong lành giữa cơn hoang mang sợ hãi của con chiên lạc đàn sao? Đó là những cảm nghiệm mà tôi đã được Chúa đánh động.",
+            "image": "post/Hình 1.jpg",
+            "like": 2300,
+            "comment": "“Lạy Chúa, tâm hồn con khắc khoải khôn nguôi, cho tới khi tìm được Chúa và an nghỉ trong Ngài”.",
+            "share": 450,
+            "link": "https://dongten.net/thinh-lang-noi-tam/"
+        },
+        {
+            "title": "LẮNG NGHE TIẾNG NÓI CỦA THINH LẶNG",
+            "subject": "Thinh lặng trong thế giới hôm nay không dễ, thế nên, giá trị của nó đối với bản thân bạn có giá trị lớn lao. Càng ồn ào càng cần sự thinh lặng bởi con người muốn chìm đắm trong bình an, khao khát hạnh phúc đích thực.Trong đời sống thánh hiến, thinh lặng là cơ hội để người tu sĩ cảm nghiệm tình yêu và nên thân tình hơn trong tương quan với Đấng là Bình An.",
+            "image": "post/Hình 5.jpg",
+            "like": 2300,
+            "comment": "Thinh lặng để nghe tiếng Chúa nói trong bạn, điều đó rất cần thiết.",
+            "share": 450,
+            "link": "https://dongten.net/thinh-lang-noi-tam/"
+        },
+        {
+            "title": "HÀNH TRÌNH TÂM LINH CỦA MỘT TÂM HỒN",
+            "subject": "Nói đến hành trình là phải nói đến một đích đến. Chúng ta, tôi và các bạn, đang cùng nhau đi trên một hành trình nên thánh dưới sự linh hứng của Chúa Thánh Thần. Dù cho hành trình này có mơ và thơ như thế nào đi chăng nữa thì vẫn không thể tránh khỏi những khó khăn, thử thách trong cuộc sống, chúng cho ta những cảm nghiệm thiêng liêng, những cơ hội hồi tâm, lắng đọng để lắng nghe tiếng Chúa thủ thỉ trong tâm hồn…",
+            "image": "post/Hình 6.jpg",
+            "like": 1500,
+            "comment": "Tâm bình an trong Chúa, bạn sẽ luôn cảm thấy hạnh phúc trong cuộc đời",
+            "share": 220,
+            "link": "https://www.sachkhaitri.com/hanh-trinh-tam-linh-cua-mot-linh-hon"
+        },
+        {
+            "title": "CUỘC ĐỜI: CÂU CHUYỆN CỦA TÔI TRONG LỊCH SỬ",
+            "subject": "Tôi quan tâm cách riêng đến những trải nghiệm thời thơ ấu và niên thiếu đã âm thầm tác động trên con người của Đức giáo hoàng và cả những định hướng mục vụ lớn trong đời ngài, qua đó tác động lên toàn thể Hội Thánh vì ngài là Đấng kế vị Thánh Phêrô.",
+            "image": "post/Hình 8.jpg",
+            "like": 3200,
+            "comment": "Hãy vẽ nên cuộc đời bạn trong bàn tay quan phòng của Chúa, luôn phó thác và cậy trông vào Ngài",
+            "share": 600,
+            "link": "http://daminhrosalima.net/hoc-hoi/cuoc-doi-cau-chuyen-cua-toi-trong-lich-su-45031.html"
+        },
+        {
+            "title": "HÃY LÀ PHIÊN BẢN TỐT NHẤT CỦA CHÍNH MÌNH",
+            "subject": "Ai cũng muốn trở thành phiên bản tốt nhất của chính mình. Tuy nhiên, rất ít người trong chúng ta thành công. Trên thực tế, chúng ta thường là kẻ thù tồi tệ nhất của chính mình khi đạt được thành công và sống cuộc sống mà chúng ta mong muốn. Chúng ta tự hủy hoại bản thân bằng những hành vi giữ chúng ta trong vùng thoải mái và không cho phép mình tiến lên nữa.",
+            "image": "post/Hình 7.jpg",
+            "like": 890,
+            "comment": "Great tips for saving money while traveling.",
+            "share": 150,
+            "link": "https://kenh14.vn/vi-mot-doi-qua-dai-21-duc-ket-noi-tieng-sau-se-khien-ban-phai-thuc-tinh-va-suy-ngam-sau-sac-hon-ve-cuoc-doi-minh-20200705074523103.chn"
+        },
+        {
+            "title": "TÔN TRỌNG SỰ TỨC GIẬN TRONG BẠN",
+            "subject": "Trong cuộc sống hằng ngày, chắc hẳn mỗi người trong chúng ta đều có trải nghiệm về nhiều cung bậc cảm xúc. Riêng bài viết này HappyMind đề cập đến cảm xúc giận dữ, có thể ít khi hoặc thường xuyên trong tuần, mức độ nhẹ là sự khó chịu hay nặng hơn là một cơn thịnh nộ. Cảm xúc giận dữ là một loại cảm xúc hoàn toàn bình thường, lành mạnh của con người. Nhưng khi cơn giận vượt khỏi tầm kiểm soát, nó làm ảnh hưởng đến sức khỏe của chính bạn và người khác. Khi đó bạn nên dành thời gian để tìm hiểu nguyên nhân và điều chỉnh.",
+            "image": "post/Hình 9.jpg",
+            "like": 2000,
+            "comment": "Cuộc đời chỉ có một lần để sống, tôn trọng và yêu thương trong tình Chúa",
+            "share": 500,
+            "link": "https://www.lelajournal.com/post/9-loai-tuc-gian-thuong-thay-dung-de-chung-nuot-chung-ban"
+        },
+        {
+            "title": "ĐỨC GHEN CỦA MỘT VỊ THÁNH",
+            "subject": "Tình yêu luôn xây dựng và thăng tiến những tương quan sâu đậm, mật thiết nhưng tự do viên mãn. Thiên Chúa yêu thương con người va luôn thiết tha, mong mỏi con người đáp lại tình yêu của Ngài. Tình yêu sâu nặng ấy được diễn tả bằng muôn vàn hình ảnh và cách thức, có khi bằng ẩn dụ, biểu tượng gây nhiều suy nghĩa như Đức Chúa là Thiên Chúa yêu thương và ghen tuông.",
+            "image": "post/Hình 10.jpg",
+            "like": 1700,
+            "comment": "Tôi càng yêu Chúa, tôi càng ghen vì tình yêu con dành cho Ngài là muôn thuở",
+            "share": 290,
+            "link": "https://www.facebook.com/share/p/9m1L4dkj8gpSkUiX/"
+        },
+        {
+            "title": "THÁNH Ý CHÚA",
+            "subject": "Ơn gọi Chúa thật là Huyền nhiệm, Ngài gọi con cất bước theo đường Thập Giá. Bình an, đau khổ luôn có Chúa song hành. Cuộc đời con xin vâng theo ý Chúa. Suốt cuộc đời con xin mãi tri ân.",
+            "image": "post/Hình 11.jpg",
+            "like": 2600,
+            "comment": "Hãy tạ ơn Chúa vì Chúa nhân từ, muôn ngàn đời Chúa vẫn trọn tình thương.",
+            "share": 680,
+            "link": "https://www.facebook.com/share/v/cUZdeowkrhq1NM6x/"
+        }
+    ],
+    "homepage": [
+        {
+            "title": "BỔN MẠNG NHÀ THỈNH SINH",
+            "subject": "Thánh Têrêsa Hài Đồng Giêsu ngày 01/10/2024. Một vị Thánh có tâm hồn đơn sơ, luôn âm thầm làm mọi việc vinh danh Chúa.",
+            "image": "homepage/Bổn mạng TS.jpg"
+        },
+        {
+            "title": "CỔ VÕ ƠN GỌI",
+            "subject": "Các bạn hãy quảng đại đáp lại tiếng gọi của Chúa nhé. Chúa đang đợi bạn, bạn đừng trì hoãn mà hãy mau mắn bước theo Thánh Ý Chúa.",
+            "image": "homepage/CỔ VÕ OG.jpg"
+        },
+        {
+            "title": "TÂM HỒN ĐƠN SƠ",
+            "subject": "Bạn hãy xây dựng nơi bản thân một nền tảng vững chắc với tâm hồn trong sáng để sống tốt hơn từng ngày bạn nhé. Cùng tôi đọc mỗi ngày 1 trang nhé.",
+            "image": "homepage/ĐỌC SÁCH  (3).jpg"
+        },
+        {
+            "title": "ĐỌC SÁCH THIÊNG LIÊNG",
+            "subject": "Để có được nội tâm mạnh mẽ và suy nghĩ tích cực bạn hãy vượt qua sự lười biếng của bản thân mà năng đọc sách nhé",
+            "image": "homepage/ĐỌC SÁCH  (2).jpg"
+        }
+    ]      
+}
